@@ -1,0 +1,2 @@
+{    	"parent": "block/cube_all",    "textures": {"all": "extraglass:blocks/stained_clear/light_gray_stained_clear_glass"    }
+}

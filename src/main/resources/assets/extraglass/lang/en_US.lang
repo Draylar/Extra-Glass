@@ -1,0 +1,58 @@
+# Stained Incorporeal Glass
+tile.extraglass.white_stained_incorporeal_glass.name=White Stained Incorporeal Glass
+tile.extraglass.orange_stained_incorporeal_glass.name=Orange Stained Incorporeal Glass
+tile.extraglass.magenta_stained_incorporeal_glass.name=Magenta Stained Incorporeal Glass
+tile.extraglass.lightBlue_stained_incorporeal_glass.name=Light Blue Stained Incorporeal Glass
+tile.extraglass.yellow_stained_incorporeal_glass.name=Yellow Stained Incorporeal Glass
+tile.extraglass.lime_stained_incorporeal_glass.name=Lime Stained Incorporeal Glass
+tile.extraglass.pink_stained_incorporeal_glass.name=Pink Stained Incorporeal Glass
+tile.extraglass.gray_stained_incorporeal_glass.name=Gray Stained Incorporeal Glass
+tile.extraglass.silver_stained_incorporeal_glass.name=Light Gray Stained Incorporeal Glass
+tile.extraglass.cyan_stained_incorporeal_glass.name=Cyan Stained Incorporeal Glass
+tile.extraglass.purple_stained_incorporeal_glass.name=Purple Stained Incorporeal Glass
+tile.extraglass.blue_stained_incorporeal_glass.name=Blue Stained Incorporeal Glass
+tile.extraglass.brown_stained_incorporeal_glass.name=Brown Stained Incorporeal Glass
+tile.extraglass.green_stained_incorporeal_glass.name=Green Stained Incorporeal Glass
+tile.extraglass.red_stained_incorporeal_glass.name=Red Stained Incorporeal Glass
+tile.extraglass.black_stained_incorporeal_glass.name=Black Stained Incorporeal Glass
+
+# Stained Clear Glass
+tile.extraglass.white_stained_clear_glass.name=White Stained Clear Glass
+tile.extraglass.orange_stained_clear_glass.name=Orange Stained Clear Glass
+tile.extraglass.magenta_stained_clear_glass.name=Magenta Stained Clear Glass
+tile.extraglass.lightBlue_stained_clear_glass.name=Light Blue Stained Clear Glass
+tile.extraglass.yellow_stained_clear_glass.name=Yellow Stained Clear Glass
+tile.extraglass.lime_stained_clear_glass.name=Lime Stained Clear Glass
+tile.extraglass.pink_stained_clear_glass.name=Pink Stained Clear Glass
+tile.extraglass.gray_stained_clear_glass.name=Gray Stained Clear Glass
+tile.extraglass.silver_stained_clear_glass.name=Light Gray Stained Clear Glass
+tile.extraglass.cyan_stained_clear_glass.name=Cyan Stained Clear Glass
+tile.extraglass.purple_stained_clear_glass.name=Purple Stained Clear Glass
+tile.extraglass.blue_stained_clear_glass.name=Blue Stained Clear Glass
+tile.extraglass.brown_stained_clear_glass.name=Brown Stained Clear Glass
+tile.extraglass.green_stained_clear_glass.name=Green Stained Clear Glass
+tile.extraglass.red_stained_clear_glass.name=Red Stained Clear Glass
+tile.extraglass.black_stained_clear_glass.name=Black Stained Clear Glass
+
+# Stained Darkened Glass
+tile.extraglass.white_stained_darkened_glass.name=White Stained Darkened Glass
+tile.extraglass.orange_stained_darkened_glass.name=Orange Stained Darkened Glass
+tile.extraglass.magenta_stained_darkened_glass.name=Magenta Stained Darkened Glass
+tile.extraglass.lightBlue_stained_darkened_glass.name=Light Blue Stained Darkened Glass
+tile.extraglass.yellow_stained_darkened_glass.name=Yellow Stained Darkened Glass
+tile.extraglass.lime_stained_darkened_glass.name=Lime Stained Darkened Glass
+tile.extraglass.pink_stained_darkened_glass.name=Pink Stained Darkened Glass
+tile.extraglass.gray_stained_darkened_glass.name=Gray Stained Darkened Glass
+tile.extraglass.silver_stained_darkened_glass.name=Light Gray Stained Darkened Glass
+tile.extraglass.cyan_stained_darkened_glass.name=Cyan Stained Darkened Glass
+tile.extraglass.purple_stained_darkened_glass.name=Purple Stained Darkened Glass
+tile.extraglass.blue_stained_darkened_glass.name=Blue Stained Darkened Glass
+tile.extraglass.brown_stained_darkened_glass.name=Brown Stained Darkened Glass
+tile.extraglass.green_stained_darkened_glass.name=Green Stained Darkened Glass
+tile.extraglass.red_stained_darkened_glass.name=Red Stained Darkened Glass
+tile.extraglass.black_stained_darkened_glass.name=Black Stained Darkened Glass
+
+# Base Blocks
+tile.clear_glass.name=Clear Glass
+tile.incorporeal_glass.name=Incorporeal Glass
+tile.darkened_glass.name=Darkened Glass

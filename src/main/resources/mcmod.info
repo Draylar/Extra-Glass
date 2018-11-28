@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "extra-glass",
+    "name": "Extra Glass",
+    "description": "Adds extra glass blocks with special utilities and designs.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Draylar"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": [
+      ""
+    ]
+  }
+]

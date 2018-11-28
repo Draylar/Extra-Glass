@@ -1,0 +1,95 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "extraglass:stained_darkened_glass"
+  },
+  "variants": {
+    "color": {
+      "white": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/white_stained_darkened_glass"
+        }
+      },
+      "orange": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/orange_stained_darkened_glass"
+        }
+      },
+      "magenta": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/magenta_stained_darkened_glass"
+        }
+      },
+      "light_blue": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/light_blue_stained_darkened_glass"
+        }
+      },
+      "yellow": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/yellow_stained_darkened_glass"
+        }
+      },
+      "lime": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/lime_stained_darkened_glass"
+        }
+      },
+      "pink": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/pink_stained_darkened_glass"
+        }
+      },
+      "gray": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/gray_stained_darkened_glass"
+        }
+      },
+      "light_gray": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/light_gray_stained_darkened_glass"
+        }
+      },
+      "silver": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/light_gray_stained_darkened_glass"
+        }
+      },
+      "cyan": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/cyan_stained_darkened_glass"
+        }
+      },
+      "purple": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/purple_stained_darkened_glass"
+        }
+      },
+      "blue": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/blue_stained_darkened_glass"
+        }
+      },
+      "brown": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/brown_stained_darkened_glass"
+        }
+      },
+      "green": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/green_stained_darkened_glass"
+        }
+      },
+      "red": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/red_stained_darkened_glass"
+        }
+      },
+      "black": {
+        "textures": {
+          "all": "extraglass:blocks/stained_darkened/black_stained_darkened_glass"
+        }
+      }
+    }
+  }
+}

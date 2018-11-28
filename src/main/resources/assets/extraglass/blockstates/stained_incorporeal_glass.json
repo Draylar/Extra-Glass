@@ -1,0 +1,95 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "extraglass:stained_incorporeal_glass"
+  },
+  "variants": {
+    "color": {
+      "white": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/white_stained_incorporeal_glass"
+        }
+      },
+      "orange": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/orange_stained_incorporeal_glass"
+        }
+      },
+      "magenta": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/magenta_stained_incorporeal_glass"
+        }
+      },
+      "light_blue": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/light_blue_stained_incorporeal_glass"
+        }
+      },
+      "yellow": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/yellow_stained_incorporeal_glass"
+        }
+      },
+      "lime": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/lime_stained_incorporeal_glass"
+        }
+      },
+      "pink": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/pink_stained_incorporeal_glass"
+        }
+      },
+      "gray": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/gray_stained_incorporeal_glass"
+        }
+      },
+      "light_gray": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/light_gray_stained_incorporeal_glass"
+        }
+      },
+      "silver": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/light_gray_stained_incorporeal_glass"
+        }
+      },
+      "cyan": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/cyan_stained_incorporeal_glass"
+        }
+      },
+      "purple": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/purple_stained_incorporeal_glass"
+        }
+      },
+      "blue": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/blue_stained_incorporeal_glass"
+        }
+      },
+      "brown": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/brown_stained_incorporeal_glass"
+        }
+      },
+      "green": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/green_stained_incorporeal_glass"
+        }
+      },
+      "red": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/red_stained_incorporeal_glass"
+        }
+      },
+      "black": {
+        "textures": {
+          "all": "extraglass:blocks/stained_incorporeal/black_stained_incorporeal_glass"
+        }
+      }
+    }
+  }
+}
