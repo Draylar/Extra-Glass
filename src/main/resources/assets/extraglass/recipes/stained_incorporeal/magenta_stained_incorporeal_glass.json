@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "extraglass:clear_glass"
+      "item": "extraglass:incorporeal_glass"
     },
     "X": {
       "item": "minecraft:dye",
@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "extraglass:stained_clear_glass",
+    "item": "extraglass:stained_incorporeal_glass",
     "data": 13,
     "count": 8
   }
