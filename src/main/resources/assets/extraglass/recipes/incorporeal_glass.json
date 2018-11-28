@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xwx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:glass"
+    },
+    "w":
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result":
+  {
+    "item": "extraglass:incorporeal_glass",
+    "count": 8
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xwx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:glass"
+    },
+    "w":
+    {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result":
+  {
+    "item": "extraglass:darkened_glass",
+    "count": 8
+  }
+}
