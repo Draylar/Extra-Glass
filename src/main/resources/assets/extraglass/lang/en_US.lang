@@ -52,6 +52,25 @@ tile.extraglass.green_stained_darkened_glass.name=Green Stained Darkened Glass
 tile.extraglass.red_stained_darkened_glass.name=Red Stained Darkened Glass
 tile.extraglass.black_stained_darkened_glass.name=Black Stained Darkened Glass
 
+
+# Stained Darkened Glass
+tile.extraglass.white_stained_darkened_incorporeal_glass.name=White Stained Darkened Incorporeal Glass
+tile.extraglass.orange_stained_darkened_incorporeal_glass.name=Orange Stained Darkened Incorporeal Glass
+tile.extraglass.magenta_stained_darkened_incorporeal_glass.name=Magenta Stained Darkened Incorporeal Glass
+tile.extraglass.lightBlue_stained_darkened_incorporeal_glass.name=Light Blue Stained Darkened Incorporeal Glass
+tile.extraglass.yellow_stained_darkened_incorporeal_glass.name=Yellow Stained Darkened Incorporeal Glass
+tile.extraglass.lime_stained_darkened_incorporeal_glass.name=Lime Stained Darkened Incorporeal Glass
+tile.extraglass.pink_stained_darkened_incorporeal_glass.name=Pink Stained Darkened Incorporeal Glass
+tile.extraglass.gray_stained_darkened_incorporeal_glass.name=Gray Stained Darkened Incorporeal Glass
+tile.extraglass.silver_stained_darkened_incorporeal_glass.name=Light Gray Stained Darkened Incorporeal Glass
+tile.extraglass.cyan_stained_darkened_incorporeal_glass.name=Cyan Stained Darkened Incorporeal Glass
+tile.extraglass.purple_stained_darkened_incorporeal_glass.name=Purple Stained Darkened Incorporeal Glass
+tile.extraglass.blue_stained_darkened_incorporeal_glass.name=Blue Stained Darkened Incorporeal Glass
+tile.extraglass.brown_stained_darkened_incorporeal_glass.name=Brown Stained Darkened Incorporeal Glass
+tile.extraglass.green_stained_darkened_incorporeal_glass.name=Green Stained Darkened Incorporeal Glass
+tile.extraglass.red_stained_darkened_incorporeal_glass.name=Red Stained Darkened Incorporeal Glass
+tile.extraglass.black_stained_darkened_incorporeal_glass.name=Black Stained Darkened Incorporeal Glass
+
 # Base Blocks
 tile.clear_glass.name=Clear Glass
 tile.incorporeal_glass.name=Incorporeal Glass
