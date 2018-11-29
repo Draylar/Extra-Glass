@@ -4,6 +4,8 @@ import com.github.draylar.extraglass.glass.blocks.clear.ClearGlass;
 import com.github.draylar.extraglass.glass.blocks.clear.StainedClearGlass;
 import com.github.draylar.extraglass.glass.blocks.darkened.DarkenedGlass;
 import com.github.draylar.extraglass.glass.blocks.darkened.StainedDarkenedGlass;
+import com.github.draylar.extraglass.glass.blocks.darkened_incorporeal.DarkenedIncorporealGlass;
+import com.github.draylar.extraglass.glass.blocks.darkened_incorporeal.StainedDarkenedIncorporealGlass;
 import com.github.draylar.extraglass.glass.blocks.incorporeal.IncorporealGlass;
 import com.github.draylar.extraglass.glass.blocks.incorporeal.StainedIncorporealGlass;
 import net.minecraft.block.Block;
@@ -20,6 +22,10 @@ public class Blocks
     public static DarkenedGlass darkenedGlass = new DarkenedGlass("darkened_glass");
     public static StainedDarkenedGlass stainedDarkenedGlass = new StainedDarkenedGlass("stained_darkened_glass");
 
+    // darkened incorporeal glass
+    public static DarkenedIncorporealGlass darkenedIncorporealGlass = new DarkenedIncorporealGlass("darkened_incorporeal_glass");
+    public static StainedDarkenedIncorporealGlass stainedDarkenedIncorporealGlass = new StainedDarkenedIncorporealGlass("stained_darkened_incorporeal_glass");
+
     public static void registerBlocks(RegistryEvent.Register<Block> event)
     {
         event.getRegistry().registerAll(
@@ -28,7 +34,10 @@ public class Blocks
                 stainedClearGlass,
                 stainedIncorporealGlass,
                 darkenedGlass,
-                stainedDarkenedGlass
+                stainedDarkenedGlass,
+
+                darkenedIncorporealGlass,
+                stainedDarkenedIncorporealGlass
         );
     }
 }

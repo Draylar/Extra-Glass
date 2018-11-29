@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "extraglass:darkened_incorporeal_glass"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
