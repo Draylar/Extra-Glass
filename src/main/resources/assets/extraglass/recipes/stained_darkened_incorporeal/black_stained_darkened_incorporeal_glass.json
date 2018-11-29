@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "extraglass:darkened_incorporeal_glass"
+    },
+    "X": {
+      "item": "minecraft:dye",
+      "data": 15
+    }
+  },
+  "result": {
+    "item": "extraglass:stained_darkened_incorporeal_glass",
+    "data": 0,
+    "count": 8
+  }
+}
