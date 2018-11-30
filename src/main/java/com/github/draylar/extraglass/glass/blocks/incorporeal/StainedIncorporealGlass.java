@@ -58,16 +58,7 @@ public class StainedIncorporealGlass extends BlockStainedGlass
         IBlockState secondBlockState = blockAccess.getBlockState(pos.offset(side));
         Block block = secondBlockState.getBlock();
 
-        if (blockState != secondBlockState)
-        {
-            return true;
-        }
-
-        if (block == this)
-        {
-            return false;
-        }
-
-        return true;
+        if (blockState != secondBlockState) return true;
+        return block != this;
     }
 }
