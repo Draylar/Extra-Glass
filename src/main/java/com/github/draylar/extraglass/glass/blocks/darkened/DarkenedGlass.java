@@ -22,12 +22,6 @@ public class DarkenedGlass extends GlassBase
     }
 
     @Override
-    protected boolean canSilkHarvest()
-    {
-        return true;
-    }
-
-    @Override
     public int getLightOpacity(IBlockState state)
     {
         return 100;

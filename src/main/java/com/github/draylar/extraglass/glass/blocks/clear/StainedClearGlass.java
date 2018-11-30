@@ -34,12 +34,6 @@ public class StainedClearGlass extends BlockStainedGlass
     }
 
     @Override
-    protected boolean canSilkHarvest()
-    {
-        return true;
-    }
-
-    @Override
     public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side)
     {
         IBlockState secondBlockState = blockAccess.getBlockState(pos.offset(side));
