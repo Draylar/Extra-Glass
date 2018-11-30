@@ -2,6 +2,7 @@ package com.github.draylar.extraglass.glass.items;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.EnumDyeColor;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 
@@ -10,6 +11,7 @@ public class ItemStainedClearGlass extends ItemBlock
     public ItemStainedClearGlass(Block block)
     {
         super(block);
+        setHasSubtypes(true);
     }
 
     @Override

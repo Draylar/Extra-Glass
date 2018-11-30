@@ -10,6 +10,7 @@ public class ItemStainedDarkenedGlass extends ItemBlock
     public ItemStainedDarkenedGlass(Block block)
     {
         super(block);
+        setHasSubtypes(true);
     }
 
     @Override

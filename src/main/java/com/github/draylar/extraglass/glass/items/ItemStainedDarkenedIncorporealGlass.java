@@ -10,6 +10,7 @@ public class ItemStainedDarkenedIncorporealGlass extends ItemBlock
     public ItemStainedDarkenedIncorporealGlass(Block block)
     {
         super(block);
+        setHasSubtypes(true);
     }
 
     @Override
