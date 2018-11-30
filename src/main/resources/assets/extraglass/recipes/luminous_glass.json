@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xwx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "extraglass:clear_glass"
+    },
+    "w":
+    {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result":
+  {
+    "item": "extraglass:luminous_glass",
+    "count": 8
+  }
+}

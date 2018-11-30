@@ -71,8 +71,29 @@ tile.extraglass.green_stained_darkened_incorporeal_glass.name=Green Stained Dark
 tile.extraglass.red_stained_darkened_incorporeal_glass.name=Red Stained Darkened Incorporeal Glass
 tile.extraglass.black_stained_darkened_incorporeal_glass.name=Black Stained Darkened Incorporeal Glass
 
+
+# Stained Darkened Glass
+tile.extraglass.white_stained_luminous_glass.name=White Stained Luminous Glass
+tile.extraglass.orange_stained_luminous_glass.name=Orange Stained Luminous Glass
+tile.extraglass.magenta_stained_luminous_glass.name=Magenta Stained Luminous Glass
+tile.extraglass.lightBlue_stained_luminous_glass.name=Light Blue Stained Luminous Glass
+tile.extraglass.yellow_stained_luminous_glass.name=Yellow Stained Luminous Glass
+tile.extraglass.lime_stained_luminous_glass.name=Lime Stained Luminous Glass
+tile.extraglass.pink_stained_luminous_glass.name=Pink Stained Luminous Glass
+tile.extraglass.gray_stained_luminous_glass.name=Gray Stained Luminous Glass
+tile.extraglass.silver_stained_luminous_glass.name=Light Gray Stained Luminous Glass
+tile.extraglass.cyan_stained_luminous_glass.name=Cyan Stained Luminous Glass
+tile.extraglass.purple_stained_luminous_glass.name=Purple Stained Luminous Glass
+tile.extraglass.blue_stained_luminous_glass.name=Blue Stained Luminous Glass
+tile.extraglass.brown_stained_luminous_glass.name=Brown Stained Luminous Glass
+tile.extraglass.green_stained_luminous_glass.name=Green Stained Luminous Glass
+tile.extraglass.red_stained_luminous_glass.name=Red Stained Luminous Glass
+tile.extraglass.black_stained_luminous_glass.name=Black Stained Luminous Glass
+
+
 # Base Blocks
 tile.clear_glass.name=Clear Glass
 tile.incorporeal_glass.name=Incorporeal Glass
 tile.darkened_glass.name=Darkened Glass
 tile.darkened_incorporeal_glass.name=Darkened Incorporeal Glass
+tile.luminous_glass.name=Luminous Glass

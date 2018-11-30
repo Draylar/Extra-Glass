@@ -1,9 +1,6 @@
 package com.github.draylar.extraglass;
 
-import com.github.draylar.extraglass.glass.items.ItemStainedClearGlass;
-import com.github.draylar.extraglass.glass.items.ItemStainedDarkenedGlass;
-import com.github.draylar.extraglass.glass.items.ItemStainedDarkenedIncorporealGlass;
-import com.github.draylar.extraglass.glass.items.ItemStainedIncorporealGlass;
+import com.github.draylar.extraglass.glass.items.*;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -23,6 +20,9 @@ public class Items
     public static Item darkenedIncorporealGlass = new ItemBlock(Blocks.darkenedIncorporealGlass).setRegistryName(Blocks.darkenedIncorporealGlass.getRegistryName());
     public static Item stainedDarkenedIncorporealGlass = new ItemStainedDarkenedIncorporealGlass(Blocks.stainedDarkenedIncorporealGlass).setRegistryName(Blocks.stainedDarkenedIncorporealGlass.getRegistryName());
 
+    public static Item luminousGlass = new ItemBlock(Blocks.luminousGlass).setRegistryName(Blocks.luminousGlass.getRegistryName());
+    public static Item stainedLuminousGlass = new ItemStainedLuminousGlass(Blocks.stainedLuminousGlass).setRegistryName(Blocks.stainedLuminousGlass.getRegistryName());
+
     public static void registerItemBlocks(RegistryEvent.Register<Item> event)
     {
         event.getRegistry().registerAll(
@@ -34,7 +34,10 @@ public class Items
                 stainedDarkenedGlass,
 
                 darkenedIncorporealGlass,
-                stainedDarkenedIncorporealGlass
+                stainedDarkenedIncorporealGlass,
+
+                luminousGlass,
+                stainedLuminousGlass
         );
     }
 
@@ -44,11 +47,13 @@ public class Items
         ExtraGlass.registerModel(incorporealGlass, "incorporeal_glass");
         ExtraGlass.registerModel(darkenedGlass, "darkened_glass");
         ExtraGlass.registerModel(darkenedIncorporealGlass, "darkened_incorporeal_glass");
+        ExtraGlass.registerModel(luminousGlass, "luminous_glass");
 
         registerStainedClearGlassVariants();
         registerStainedIncorporealGlassVariants();
         registerStainedDarkenedGlassVariants();
         registerStainedDarkenedIncorporealGlassVariants();
+        registerStainedLuminousGlassVariants();
     }
 
 
@@ -106,6 +111,20 @@ public class Items
             if(color.equals("lightBlue")) color = "light_blue";
 
             ExtraGlass.registerModel(stainedDarkenedIncorporealGlass, "stained_darkened_incorporeal/" + color + "_stained_darkened_incorporeal_glass", i);
+        }
+    }
+
+    public static void registerStainedLuminousGlassVariants()
+    {
+        for (int i = 0; i <= 15; i++)
+        {
+            String color = EnumDyeColor.byMetadata(i) + "";
+
+            // change silver to light gray and lightBlue to light_blue
+            if(color.equals("silver")) color = "light_gray";
+            if(color.equals("lightBlue")) color = "light_blue";
+
+            ExtraGlass.registerModel(stainedLuminousGlass, "stained_luminous/" + color + "_stained_luminous_glass", i);
         }
     }
 }

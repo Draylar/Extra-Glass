@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "extraglass:luminous_glass"
+    },
+    "X": {
+      "item": "minecraft:dye",
+      "data": 6
+    }
+  },
+  "result": {
+    "item": "extraglass:stained_luminous_glass",
+    "data": 9,
+    "count": 8
+  }
+}
