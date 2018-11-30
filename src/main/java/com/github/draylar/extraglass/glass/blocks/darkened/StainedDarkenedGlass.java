@@ -1,11 +1,14 @@
 package com.github.draylar.extraglass.glass.blocks.darkened;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockStainedGlass;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 public class StainedDarkenedGlass extends BlockStainedGlass
@@ -40,5 +43,24 @@ public class StainedDarkenedGlass extends BlockStainedGlass
     public int getLightOpacity(IBlockState state)
     {
         return 100;
+    }
+
+    @Override
+    public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side)
+    {
+        IBlockState secondBlockState = blockAccess.getBlockState(pos.offset(side));
+        Block block = secondBlockState.getBlock();
+
+        if (blockState != secondBlockState)
+        {
+            return true;
+        }
+
+        if (block == this)
+        {
+            return false;
+        }
+
+        return true;
     }
 }
